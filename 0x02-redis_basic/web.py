@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"Implements an expiring web cache and tracker"""
+"""Implements an expiring web cache and tracker"""
 from functools import wraps
 from typing import Callable
 import redis
